@@ -5,7 +5,7 @@ import numpy as np
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-input_dir = "C:/Users/danie/git/ImageAugmentation/images" 
+input_dir = "../imagenette" 
 output_dir = 'C:/Users/danie/git/ImageAugmentation/augmented_images'
 os.makedirs(output_dir, exist_ok=True)
 
